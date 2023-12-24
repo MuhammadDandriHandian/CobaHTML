@@ -1,0 +1,15 @@
+.palestine {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span {
+    display: inline-block;
+}

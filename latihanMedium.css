@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+    text-align: right;
+    padding:0%;
+}
+li {
+    display: inline-block;
+    padding: 10px 30px;
+
+}
+
+.Logo {
+    float: left;
+}
+
+.Logo > h2 {
+    margin:0;
+}
+
+.Login {
+    background-color: green;
+    color: white;
+}
+
+.mobile {
+    display: none;
+}
+
+.Logo.mobile {
+    background-color: black;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+img {
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 600px){
+    .mobile {
+        display: block;
+    }
+    .dekstop {
+        display: none;
+    }
+}

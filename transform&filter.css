@@ -1,0 +1,35 @@
+img {
+    width: 100px;
+}
+
+.foto1 {
+    transform: translate(30px, 30px);
+}
+
+.foto2 {
+    transform: skew(20deg, 20deg);
+}
+
+.foto3 {
+    transform: rotate(20deg);
+}
+
+.foto4 {
+    filter: grayscale(80%);
+}
+
+.foto5 {
+    filter: blur(5px);
+}
+
+.foto6 {
+    filter: blur(5px);  /*biar blur*/
+}
+
+.foto6:hover {
+    filter: blur(0);    /*biar pas mousenya mendekat blurnya hilang*/
+}
+
+.foto7 {
+    filter: brightness(50%);
+}

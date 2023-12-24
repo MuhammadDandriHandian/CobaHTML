@@ -1,0 +1,73 @@
+h1 {
+    color:aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(./assets/bg.webp);
+}
+
+p {
+    color:yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+ol {
+    color:blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cetak-tebal{
+    font-weight: bold;
+}
+
+p.cetak-tebal{
+    color: black;
+}
+
+/* Pseudocode */
+
+a {
+    color:orange;
+    size: 50px;
+}
+
+a:hover {
+    color:red;
+    font-family: Georgia;
+    size: 20px;
+}
+
+a:active {
+    font-style: italic;
+}
+
+tbody td img {
+    width: 70px;
+    height: 100px;
+    padding: 20px 10px 30px 40px;
+    border: solid 10px red;
+    margin: 10px;
+    background-color: aqua;
+}
+
+img.gambar {
+    width: 200px;
+    height: 100px;
+    padding: 20px 10px 30px 40px;
+    border: solid 10px red;
+    margin: 10px;
+    background-color: aqua;
+}

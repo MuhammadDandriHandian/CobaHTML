@@ -1,0 +1,58 @@
+img {
+    width: 100px;
+}
+
+.foto1 {
+    transition-duration: 2s;
+}
+.foto1:hover {
+    filter:contrast(0%)
+}
+
+.foto2 {
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.foto2:hover{
+    filter: brightness(0%)
+}
+
+.foto3 {
+    transition-duration: 1s;
+    transition-property:filter, transform;
+}
+.foto3:hover {
+    filter: brightness(0%);
+    transform:translateY(30px);
+}
+/*--------------animasi transisi-----------------*/
+
+@keyframes bergerak {
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(-50px, 200px);
+    }
+    100% {
+        transfrom: translate(0,0);
+    }
+}
+.foto4 {
+    animation:bergerak 2s infinite;
+}
+.foto5 {
+    animation: bergerak 2s 2;
+}
+
+@keyframes bergerak2 {
+    from {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.foto6 {
+    animation: bergerak2 2s infinite;
+}

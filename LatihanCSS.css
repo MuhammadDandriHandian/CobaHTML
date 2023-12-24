@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(./assets/coding.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-size: 150%;
+}
+
+h2 {
+    margin: auto;
+    padding: 50vh 0;
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+}
+
+.header ul a,
+.header ul li,
+.header ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 0 5vh;
+}
+.header ul li {
+    background-color: red;
+}
+
